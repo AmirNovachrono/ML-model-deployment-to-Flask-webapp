@@ -1,0 +1,33 @@
+<DOCTYPE HTML>
+<html>
+    <head>
+        <title> Your Machine Learning App</title>
+    </head>
+
+    <body>
+        <strong> WELCOME TO AMIR'S WEBAPP FOR THE PREDICTION THE OF REACTION ENERGY ASSOCIATED WITH ALPHA DECAY NUCLEAR REACTION USING MACHINE LEARNING </strong>
+    <center>
+        <form name="form", method='POST', stlye="text-align: center;">
+            <br>
+            Mass Number: <input type="number" name="A", placeholder="Enter mass number">
+            <br><br>
+            Atomic Number: <input type="number" name="Z", placeholder="Enter atomic number">
+            <!-- <br><br> -->
+            <!-- Angular Momentum: <input type="number" name="ell", placeholder="Enter angular momentum value"> -->
+            <!-- <br><br> -->
+            <!-- Reaction Energy: <input type="number" onchange="setTwoNumberDecimal" name="Qalpha", placeholder="Enter reaction energy value"> -->
+            <br><br>
+            <button value="Submit">Run</button>
+    </center>
+
+    <!-- function setTwoNumberDecimal(event) {
+        this.value = parseFloat(this.value).toFixed(8);
+    } -->
+    
+        
+        </form>
+        <p style="text-align: center;">{{output}}</p>
+    
+    </body>
+
+</html>
