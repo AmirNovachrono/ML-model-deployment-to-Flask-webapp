@@ -6,5 +6,5 @@ The goal of this is to create an interface where a user can interact with the KN
 The code that was used to build the KNN model and webapp has been included.
 The html file has also been included.
 
-Please note that this project is incomplete, as it only works on the localhost for now
+Please note that this project is incomplete, as it only works on the localhost for now.
 The next step is to put it in a docker container and deploy it to the cloud via AWS Elastic Beanstalk.
